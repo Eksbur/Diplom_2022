@@ -1,0 +1,107 @@
+﻿@font-face {
+font-family: "unch";
+src:url(font/shadow.ttf) format("truetype");
+}
+body {
+background: #f0f4f4;
+font-size: 20px;
+font-family: 'unch', sans-serif;
+color: #fff;
+overflow:  hidden;
+}
+#fon1 {
+position: relative;
+text-align: center;
+}
+.container {
+margin: 200px auto;
+width: 50%;
+}
+.login {
+position: relative;
+margin: -50px auto 0 auto;
+padding: 20px 20px 20px;
+width: 310px;
+background: #262324;
+border-radius: 3px;
+}
+p{
+text-align:center;
+color: #fff;
+}
+.login:before {
+content: '';
+position: absolute;
+top: -8px;
+right: -8px;
+bottom: -8px;
+left: -8px;
+z-index: -1;
+border-radius: 4px;
+}
+.login h5 {
+margin: 20px -25px 25px -25px;
+line-height: 40px;
+font-size: 40px;
+color: #c56518;
+text-align: center;
+transition: all 0.5s linear
+}
+.login h5:hover {
+color: #fff;
+transition: all 0.5s linear
+}
+.login input[type=text], .login input[type=password], .login input[type=email], .login input[type=number] {
+width: 100%;
+}
+input[type=text], input[type=password], input[type=email],input[type=number] {
+
+}
+input[type=submit] {
+border: none;
+font-size: 0.9em;
+background: #fff;
+color: #000;
+position: relative;
+text-decoration: none;
+padding:10px 10px;
+transition:all 0.3s;
+font-family: 'unch', sans-serif;
+border-radius: 5px;
+border-style:dashad;
+border-color:#fff;
+border-style:inset;	
+width:100%;
+display: flex;	
+justify-content: center;	
+}
+input[type=submit]:hover {
+color: #c56518;
+background: #262324;
+border-color:#c56518;
+border-style:inset;
+}
+.button{
+border: none;
+font-size: 0.9em;
+background: #fff;
+color: #000;
+position: relative;
+text-decoration: none;
+padding:10px 10px;
+transition:all 0.3s;
+font-family: 'unch', sans-serif;
+border-radius: 5px;
+border-style:dashad;
+border-color:#fff;
+border-style:inset;	
+margin-bottom:10px;
+display: flex;	
+justify-content: center;	
+}
+.button:hover {
+color: #c56518;
+background: #262324;
+border-color:#c56518;
+border-style:inset;
+}

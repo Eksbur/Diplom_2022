@@ -1,0 +1,159 @@
+﻿@font-face {
+font-family: "unch";
+src:url(font/shadow.ttf) format("truetype");
+}
+body{
+margin: 0;
+height: 100%;
+width: 100%;
+max-width: 100%;
+}
+.d1 input {
+height: 42px;
+width: auto;
+padding-left: 10px;
+border: 2px solid #ffffff;
+border-radius: 5px;
+outline: none;
+background: #FFFFFF;
+ text-align: center;
+}
+body {
+background: #262324;
+font-size: 20px;
+line-height: 50px;
+font-family: 'unch', sans-serif;
+font-weight: 300;
+}
+h2 {
+font-size: 30px;
+}
+h3 {
+font-size: 25px;
+padding: 20px 0px 0px;
+}
+h4 {
+font-size: 40px;
+margin: auto;
+}
+
+h5 {
+font-size: 25px;
+}
+h1 strong, h2 strong, h3 strong, h4 strong, h5 strong {
+font-weight: 600;
+}
+a:hover {
+color: #c56518;
+border-bottom-color: transparent;
+}
+p {
+display: block;
+font-size: 20px;
+line-height: 50px;
+}
+p2 {
+color: #DCDDE0;
+display: block;
+font-size: 15px;
+margin: -20px 0px 30px 0px;
+line-height: 50px;
+}
+hr{
+border: none; /* Убираем границу */
+    background-color:#000; /* Цвет линии */
+    color: #000; /* Цвет линии для IE6-7 */
+    height: 3px; /* Толщина линии */	
+	width: 100%;
+}
+.button {
+position: relative;
+display: inline-block;
+background-image: url("../images/logops1.png");
+color: #000000;
+text-align: center;
+border-radius: 50px;
+border: 0;
+cursor: pointer;
+font-weight: 250px;
+top:-30px;
+transition: 1s;
+}
+.button:hover {
+transform: scale(1.2);
+}
+.button1 {
+border: none;
+background: #FFF;
+color: #000000;
+text-align: center;
+text-decoration: none;
+width:100%;
+padding:20px;
+}
+.button1:hover {
+color: #fff;
+background: #000;
+}
+#banner {
+background: #fff;
+text-align: center;
+padding: 45px 50px 100px 50px;
+margin: 200px 0px 0px 0px;
+scroll-behavior: smooth;
+}
+#fon1 {
+position: relative;
+margin: 0;
+color: #fff;
+text-align: center;
+}
+#fon1 h1 {
+color: #fff;
+font-size: 90px;
+}
+#fon1 h1 a {
+color: #ffffff;
+}
+#fon1 .button {
+border-radius: 100%;
+width: 120px;
+height: 120px;
+line-height: 120px;
+font-size: 120,5px;
+padding: 0;
+}
+table{
+	text-align:center;
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+	margin-top:20px;
+   }
+   td {
+    text-align: center; /* Выравниваем текст по центру ячейки */
+   }
+.d2 input{
+  border: none;
+  outline: none;
+  border-radius: 3px;
+    margin:50px;
+	margin-right:0px;
+}
+.d2 input {
+  height: 42px;
+  background: #fff;
+  padding-left: 15px;
+}
+.d2 button {
+  height: 26px;
+  width: 26px;
+  top: 8px;
+  right: 8px;
+  background: #c56518;
+  margin-top:10px;
+  cursor: pointer;
+}
+.d2 button:before {
+  font-family: FontAwesome;
+  color: #c56518;
+  font-weight: bold;
+}

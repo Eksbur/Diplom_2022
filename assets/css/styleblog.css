@@ -1,0 +1,137 @@
+﻿@font-face {
+font-family: "unch";
+src:url(font/shadow.ttf) format("truetype");
+}
+body {
+background: #262324;
+font-size: 20px;
+font-family: 'unch', sans-serif;
+overflow:  hidden;
+}
+#fon1 {
+position: relative;
+text-align: center;
+}
+.container {
+margin: 200px auto;
+width: 50%;
+}
+h5 {
+font-size: 40px;
+margin:0px;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a {
+color: #000;
+text-decoration: none;
+}
+#banner {
+background: #fff;
+text-align: center;
+padding: 45px 50px 100px 50px;
+margin: -150px 0px 0px 0px;
+scroll-behavior: smooth;
+}
+.login {
+position: relative;
+margin: -100px auto 0 auto;
+padding: 20px 20px 20px;
+width: 310px;
+background: #fff;
+border-radius: 3px;
+}
+p{
+text-align:center;
+}
+.login:before {
+content: '';
+position: absolute;
+top: -8px;
+right: -8px;
+bottom: -8px;
+left: -8px;
+z-index: -1;
+border-radius: 4px;
+}
+.login h5 {
+margin: 20px -25px 25px -25px;
+line-height: 40px;
+font-size: 40px;
+color: #c56518;
+text-align: center;
+transition: all 0.5s linear
+}
+.login h5:hover {
+color: #000;
+transition: all 0.5s linear
+}
+.login input[type=text] {
+width: 100%;
+}
+
+
+.text{
+width: 1000px;	
+}
+
+input[type=text] {
+margin: 5px;
+padding: 0 10px;
+width: 200px;
+height: 34px;
+color: #000000;
+background: white;
+border: 1px solid;
+border-radius: 2px;
+}
+input[type=submit] {
+border: none;
+font-size: 0.9em;
+background: #262324;
+color: #c56518;
+position: relative;
+text-decoration: none;
+padding:10px 10px;
+transition:all 0.3s;
+font-family: 'unch', sans-serif;
+border-radius: 5px;
+border-style:dashad;
+border-color:#fff;
+border-style:inset;	
+width:100%;
+display: flex;	
+justify-content: center;		
+}
+input[type=submit]:hover {
+color: #262324;
+background: #fff;
+border-color:#c56518;
+border-style:inset;
+}
+.button{
+border: none;
+font-size: 0.9em;
+background: #262324;
+color: #c56518;
+position: relative;
+text-decoration: none;
+padding:10px 10px;
+transition:all 0.3s;
+font-family: 'unch', sans-serif;
+border-radius: 5px;
+border-style:dashad;
+border-color:#fff;
+border-style:inset;	
+display: flex;	
+justify-content: center;	
+}
+.button:hover {
+color: #262324;
+background: #fff;
+border-color:#c56518;
+border-style:inset;
+}
+
+textarea{
+	width:100%;
+	height: 300px;
+}

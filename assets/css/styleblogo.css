@@ -1,0 +1,227 @@
+﻿@font-face {
+font-family: "unch";
+src:url(font/shadow.ttf) format("truetype");
+}
+body{
+margin: 0;
+height: 100%;
+width: 100%;
+max-width: 100%;
+}
+.msg {
+    border: 2px solid #c56518;
+    border-radius: 3px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+	background:#262324;
+	width: auto;
+	color:#fff;
+}
+form {
+position: relative;
+width: 300px;
+margin: auto;
+margin-bottom:50;
+}
+.d1 button {
+  cursor: pointer;
+}
+body {
+background: #f0f4f4;
+font-size: 20px;
+line-height: 50px;
+font-family: 'unch', sans-serif;
+font-weight: 300;
+color: #000;
+}
+h2 {
+font-size: 40px;
+}
+h3 a{
+font-size: 30px;
+color: #000;
+}
+.game:hover h3 a{
+	color:#c56518;
+	transition: 1s; /* Время эффекта */
+
+}
+h4 {
+font-size: 25px;
+color: #ffffff;
+}
+h1, h2, h3, h4 {
+font-weight:500px ;
+line-height: 80px;
+}
+h1 a, h2 a, h4 a {
+color: #000;
+text-decoration: none;
+}
+h1 strong, h2 strong, h3 strong, h4 strong {
+font-weight: 600;
+}
+a:hover {
+color: #c56518;
+border-bottom-color: transparent;
+}
+p {
+font-size: 20px;
+line-height: 50px;
+white-space: nowrap; /* Запрещаем перенос строк */
+overflow: hidden; /* Обрезаем все, что не помещается в область */
+text-overflow: ellipsis; /* Добавляем многоточие */
+margin: 1px;
+}
+p2 {
+color: #DCDDE0;
+display: block;
+font-size: 15px;
+margin: -20px 0px 30px 0px;
+line-height: 50px;
+}
+hr{
+border: none; /* Убираем границу */
+    background-color:#000; /* Цвет линии */
+    color: #000; /* Цвет линии для IE6-7 */
+    height: 3px; /* Толщина линии */	
+	width: 100%;
+}
+#banner {
+background: #fff;
+text-align: center;
+padding: 45px 50px 45px 50px;
+}
+#fon1 {
+position: relative;
+margin: 0;
+text-align: center;
+padding: 250px 0px 150px 0px;
+}
+#fon1 {
+position: relative;
+top:-90px;
+}
+#fon1 h1 {
+font-size: 90px;
+}
+.exclusive {
+	text-align:center;
+    float: left;
+	margin-left:250px;
+	margin-top: 50px;
+}
+.game {
+width: 15em;
+background: #fff;
+text-align: center;
+margin:30px;
+padding: 30px 80px 30px 80px;
+ height: 250px;
+ width: 500px;
+border-radius: 10px;
+border-width: medium ;
+ float: left;
+ text-overflow:ellipsis;
+ display:inline-block;
+vertical-align: middle;
+}
+.game:hover {
+	background: #262324;
+	color:#fff;
+	transition: 1s; /* Время эффекта */
+
+}
+   .game {
+    transition: 1s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+   }
+   .game:hover :hover {
+    transform: scale(1.1,5); /* Увеличиваем масштаб */
+   }
+
+.image img {
+width: 15em;
+transition: 3s;
+    width: 300px;
+    height: 300px;
+}
+.filterDiv {
+  display: none; /* Скрыто по умолчанию */
+      float: left;
+}
+
+/* В класс "show" добавляется к отфильтрованные элементы */
+.show {
+  display: block;
+}
+
+/* Стиль кнопок */
+.button{
+border: none;
+font-size: 0.9em;
+background: #262324;
+color: #fff;
+position: relative;
+text-decoration: none;
+padding:10px 10px;
+transition:all 0.3s;
+font-family: 'unch', sans-serif;
+border-radius: 5px;
+border-style:dashad;
+border-color:#fff;
+border-style:inset;	
+justify-content: center;	
+}
+.button:hover {
+color: #c56518;
+background: #fff;
+border-color:#c56518;
+border-style:inset;
+}
+input[type=submit] {
+font-size: 25px;
+background: #262324;
+color: #fff;
+text-decoration: none;
+transition:all 0.3s;
+font-family: 'unch', sans-serif;
+border-radius: 5px;
+border-style:dashad;
+border-color:#fff;
+border-style:inset;	
+width:200px;
+cursor: pointer;
+margin: 10px;	
+}
+input[type=submit]:hover {
+color: #262324;
+background: #fff;
+border-color:#c56518;
+}
+
+.btn_2{
+border: none;
+font-size: 30px;
+background: #fff;
+color: #000;
+position: relative;
+text-decoration: none;
+padding:10px 10px;
+transition:all 0.3s;
+font-family: 'unch', sans-serif;
+border-radius: 5px;
+border-style:solid;
+border-color:#fff;	
+justify-content: center;	
+}
+.btn_2:hover {
+color: #c56518;
+background: #262324;
+border-color:#c56518;
+border-style:solid;
+}
+i
+

@@ -1,0 +1,260 @@
+﻿@font-face {
+font-family: "unch";
+src:url(font/shadow.ttf) format("truetype");
+}
+body{
+margin: 0;
+height: 100%;
+width: 100%;
+max-width: 100%;
+}
+form {
+position: relative;
+width: 300px;
+margin: auto;
+}
+.panl form {
+margin: auto;
+width: 40%;
+}
+.panl .btn_3{
+	width:auto;
+}
+.d1 input {
+height: 42px;
+padding-left: 10px;
+border: 2px solid #ffffff;
+border-radius: 5px;
+outline: none;
+background: #FFFFFF;
+color: #9E9C9C;
+}
+.fon1 {
+position: relative;
+text-align: center;
+}
+.fon2{
+text-align: auto;
+}
+body {
+background: #262324;
+font-size: 20px;
+font-family: 'unch', sans-serif;
+font-weight: 300;
+}
+h2 {
+font-size: 25px;
+text-align:center:
+}
+h2 p {
+font-size: 25px;
+}
+h3 {
+font-size: 40px;
+padding:30px 50px 10px;
+text-align: center;
+margin: 10px;
+}
+h4 {
+font-size: 40px;
+color: #c56518;
+margin:0;
+}
+h5 {
+font-size: 15px;
+padding:0px 13% 0px;
+text-align: justify;
+line-height: 30px;
+margin:0;
+word-wrap: break-word;
+}
+h6 {
+font-size: 20px;
+padding:0px 13% 0px;
+text-align: justify;
+line-height: 30px;
+margin:0;
+word-wrap: break-word;
+}
+h1 a, h3 a, h4 a, h5 a {
+color: #fff;
+text-decoration: none;
+}
+
+h1 strong, h2 strong, h3 strong, h4 strong, h5 strong {
+font-weight: 600;
+}
+a:hover {
+color: #c56518;
+border-bottom-color: transparent;
+}
+p {
+font-size: 20px;
+padding:30px 50px 10px;
+text-align: justify;
+line-height: 30px;
+ word-wrap: break-word;
+}
+hr{
+border: none; /* Убираем границу */
+    background-color:#000; /* Цвет линии */
+    color: #000; /* Цвет линии для IE6-7 */
+    height: 3px; /* Толщина линии */	
+	width: 100%;
+}
+.button {
+position: relative;
+display: inline-block;
+background: url("../images/logops1.png");
+color: #000000;
+text-align: center;
+border-radius: 50px;
+border: 0;
+cursor: pointer;
+font-weight: 250px;
+top:-30px;
+transition: 1s;
+}
+.button:hover {
+transform: scale(1.2);
+}
+.button1 {
+border: none;
+background: #FFF;
+color: #000000;
+text-align: center;
+text-decoration: none;
+width:100%;
+padding:20px;
+}
+.button1:hover {
+color: #fff;
+background: #000;
+}
+.banner {
+position: relative;
+margin: 50px auto 0 auto;
+width: 1000px;
+height:auto;
+background: #f6eddb;
+border-radius: 3px;
+padding:20px;
+}
+
+/* В класс "show" добавляется к отфильтрованные элементы */
+.show {
+  display: block;
+}
+
+
+.btn_2 {
+border: none;
+font-size: 0.9em;
+background: #262324;
+color: #fff;
+position: relative;
+text-decoration: none;
+padding:10px 10px;
+transition:all 0.3s;
+font-family: 'unch', sans-serif;
+border-radius: 5px;
+border-style:dashad;
+border-color:#fff;
+border-style:inset;	
+justify-content: center;
+width:120px;
+}
+
+.btn_2:hover {
+color: #c56518;
+background: #fff;
+border-color:#c56518;
+border-style:inset;
+cursor: pointer;
+}
+
+.btn_3 {
+border: none;
+font-size: 0.9em;
+background: #262324;
+color: #fff;
+position: relative;
+text-decoration: none;
+padding:10px 10px;
+transition:all 0.3s;
+font-family: 'unch', sans-serif;
+border-radius: 5px;
+border-style:dashad;
+border-color:#fff;
+border-style:inset;	
+justify-content: center;
+width:120px;
+float:left;
+margin: 0 10 20;
+display: block;
+}
+.btn_3:hover {
+color: #c56518;
+background: #fff;
+border-color:#c56518;
+border-style:inset;
+cursor: pointer;
+}
+input[type=submit] {
+border: none;
+font-size: 0.9em;
+text-align: center;
+background: #fff;
+color: #000;
+position: relative;
+text-decoration: none;
+padding:10px 10px;
+transition:all 0.3s;
+font-family: 'unch', sans-serif;
+border-radius: 5px;
+border-style:dashad;
+border-color:#fff;
+border-style:inset;	
+width:60%;
+justify-content: center;
+cursor: pointer;	
+}
+input[type=submit]:hover {
+color: #c56518;
+background: #262324;
+border-color:#c56518;
+border-style:inset;
+cursor: pointer;
+}
+input {
+    margin: 20px 10px;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+	border: 1px solid;
+border-radius: 2px;
+	color: #000000;
+background: white;
+border: 1px solid;
+border-radius: 2px;
+width:300px;
+}
+   .round {
+	width:80; 
+    border-radius: 50px; /* Радиус скругления */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+	float: left;
+	margin-left: 25%;
+	
+   }
+   
+   
+      .round2 {
+	width:70; 
+    border-radius: 50px; /* Радиус скругления */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+	float: left;
+	margin-left: 5%;
+	
+   }
